@@ -10,7 +10,7 @@ from sqlalchemy import UUID, text
 
 # --- Инициализация БД ---
 DB_USER = os.environ.get('DB_USER', config.DB_USER)
-DB_PASS = os.environ.get('DB_PASS', config.DB_PASS)
+DB_PASSWORD = os.environ.get('DB_PASSWORD', config.DB_PASSWORD)
 DB_HOST = os.environ.get('DB_HOST', config.DB_HOST)
 DB_PORT = os.environ.get('DB_PORT', str(config.DB_PORT))
 DB_NAME = os.environ.get('DB_NAME', config.DB_NAME)
