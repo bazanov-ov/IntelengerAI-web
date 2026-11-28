@@ -44,9 +44,6 @@ def apps_dashbord():
 
 # ------------------------------------------------------- Backend ------------------------------------------------------- #
 
-from flask import request, jsonify
-from werkzeug.security import generate_password_hash
-# Импортируйте db и модель User из ваших модулей
 
 @app.route("/api/create/account", methods=["GET", "POST"])  # <-- Добавлена запятая
 def api_create_account():
